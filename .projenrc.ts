@@ -10,7 +10,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   constructsVersion: '10.3.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.0.0',
-  name: 'projen-awscdk-construct',
+  name: '@cdk-att/projen-awscdk-construct',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/rridgley/projen-awscdk-construct.git',
 
