@@ -2,23 +2,23 @@
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### AwsCdkConstructLibrary <a name="AwsCdkConstructLibrary" id="projen-awscdk-construct.AwsCdkConstructLibrary"></a>
+### AwsCdkConstructLibrary <a name="AwsCdkConstructLibrary" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary"></a>
 
-#### Initializers <a name="Initializers" id="projen-awscdk-construct.AwsCdkConstructLibrary.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.Initializer"></a>
 
 ```typescript
-import { AwsCdkConstructLibrary } from 'projen-awscdk-construct'
+import { AwsCdkConstructLibrary } from '@cdk-att/projen-awscdk-construct'
 
 new AwsCdkConstructLibrary(options: AwsCdkConstructLibraryOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.Initializer.parameter.options">options</a></code> | <code>projen.awscdk.AwsCdkConstructLibraryOptions</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.Initializer.parameter.options">options</a></code> | <code>projen.awscdk.AwsCdkConstructLibraryOptions</code> | *No description.* |
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="projen-awscdk-construct.AwsCdkConstructLibrary.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.Initializer.parameter.options"></a>
 
 - *Type:* projen.awscdk.AwsCdkConstructLibraryOptions
 
@@ -28,42 +28,42 @@ new AwsCdkConstructLibrary(options: AwsCdkConstructLibraryOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addPackageIgnore">addPackageIgnore</a></code> | Exclude these files from the bundled package. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addTask">addTask</a></code> | Adds a new task to this project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.removeTask">removeTask</a></code> | Removes a task from a project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.synth">synth</a></code> | Synthesize all project files into `outdir`. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addBins">addBins</a></code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addDeps">addDeps</a></code> | Defines normal dependencies. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addFields">addFields</a></code> | Directly set fields in `package.json`. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addScripts">addScripts</a></code> | Replaces the contents of multiple npm package.json scripts. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addCdkDependencies">addCdkDependencies</a></code> | Adds dependencies to AWS CDK modules. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.addCdkTestDependencies">addCdkTestDependencies</a></code> | Adds AWS CDK modules as dev dependencies. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addPackageIgnore">addPackageIgnore</a></code> | Exclude these files from the bundled package. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTask">addTask</a></code> | Adds a new task to this project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.removeTask">removeTask</a></code> | Removes a task from a project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.synth">synth</a></code> | Synthesize all project files into `outdir`. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addBins">addBins</a></code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addDeps">addDeps</a></code> | Defines normal dependencies. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addFields">addFields</a></code> | Directly set fields in `package.json`. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addScripts">addScripts</a></code> | Replaces the contents of multiple npm package.json scripts. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCdkDependencies">addCdkDependencies</a></code> | Adds dependencies to AWS CDK modules. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCdkTestDependencies">addCdkTestDependencies</a></code> | Adds AWS CDK modules as dev dependencies. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-awscdk-construct.AwsCdkConstructLibrary.toString"></a>
+##### `toString` <a name="toString" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.toString"></a>
 
 ```typescript
 public toString(): string
@@ -71,7 +71,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="projen-awscdk-construct.AwsCdkConstructLibrary.addExcludeFromCleanup"></a>
+##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addExcludeFromCleanup"></a>
 
 ```typescript
 public addExcludeFromCleanup(globs: string): void
@@ -82,7 +82,7 @@ Exclude the matching files from pre-synth cleanup.
 Can be used when, for example, some
 source files include the projen marker and we don't want them to be erased during synth.
 
-###### `globs`<sup>Required</sup> <a name="globs" id="projen-awscdk-construct.AwsCdkConstructLibrary.addExcludeFromCleanup.parameter.globs"></a>
+###### `globs`<sup>Required</sup> <a name="globs" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addExcludeFromCleanup.parameter.globs"></a>
 
 - *Type:* string
 
@@ -90,7 +90,7 @@ The glob patterns to match.
 
 ---
 
-##### `addGitIgnore` <a name="addGitIgnore" id="projen-awscdk-construct.AwsCdkConstructLibrary.addGitIgnore"></a>
+##### `addGitIgnore` <a name="addGitIgnore" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addGitIgnore"></a>
 
 ```typescript
 public addGitIgnore(pattern: string): void
@@ -98,7 +98,7 @@ public addGitIgnore(pattern: string): void
 
 Adds a .gitignore pattern.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-awscdk-construct.AwsCdkConstructLibrary.addGitIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addGitIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -106,7 +106,7 @@ The glob pattern to ignore.
 
 ---
 
-##### `addPackageIgnore` <a name="addPackageIgnore" id="projen-awscdk-construct.AwsCdkConstructLibrary.addPackageIgnore"></a>
+##### `addPackageIgnore` <a name="addPackageIgnore" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addPackageIgnore"></a>
 
 ```typescript
 public addPackageIgnore(pattern: string): void
@@ -117,13 +117,13 @@ Exclude these files from the bundled package.
 Implemented by project types based on the
 packaging mechanism. For example, `NodeProject` delegates this to `.npmignore`.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-awscdk-construct.AwsCdkConstructLibrary.addPackageIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addPackageIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
 ---
 
-##### `addTask` <a name="addTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.addTask"></a>
+##### `addTask` <a name="addTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTask"></a>
 
 ```typescript
 public addTask(name: string, props?: TaskOptions): Task
@@ -134,7 +134,7 @@ Adds a new task to this project.
 This will fail if the project already has
 a task with this name.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-awscdk-construct.AwsCdkConstructLibrary.addTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -142,7 +142,7 @@ The task name to add.
 
 ---
 
-###### `props`<sup>Optional</sup> <a name="props" id="projen-awscdk-construct.AwsCdkConstructLibrary.addTask.parameter.props"></a>
+###### `props`<sup>Optional</sup> <a name="props" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTask.parameter.props"></a>
 
 - *Type:* projen.TaskOptions
 
@@ -150,7 +150,7 @@ Task properties.
 
 ---
 
-##### ~~`addTip`~~ <a name="addTip" id="projen-awscdk-construct.AwsCdkConstructLibrary.addTip"></a>
+##### ~~`addTip`~~ <a name="addTip" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTip"></a>
 
 ```typescript
 public addTip(message: string): void
@@ -158,7 +158,7 @@ public addTip(message: string): void
 
 Prints a "tip" message during synthesis.
 
-###### `message`<sup>Required</sup> <a name="message" id="projen-awscdk-construct.AwsCdkConstructLibrary.addTip.parameter.message"></a>
+###### `message`<sup>Required</sup> <a name="message" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTip.parameter.message"></a>
 
 - *Type:* string
 
@@ -166,7 +166,7 @@ The message.
 
 ---
 
-##### `annotateGenerated` <a name="annotateGenerated" id="projen-awscdk-construct.AwsCdkConstructLibrary.annotateGenerated"></a>
+##### `annotateGenerated` <a name="annotateGenerated" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.annotateGenerated"></a>
 
 ```typescript
 public annotateGenerated(glob: string): void
@@ -180,7 +180,7 @@ repository statistics and language breakdown.
 
 > [https://github.com/github/linguist/blob/master/docs/overrides.md](https://github.com/github/linguist/blob/master/docs/overrides.md)
 
-###### `glob`<sup>Required</sup> <a name="glob" id="projen-awscdk-construct.AwsCdkConstructLibrary.annotateGenerated.parameter.glob"></a>
+###### `glob`<sup>Required</sup> <a name="glob" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.annotateGenerated.parameter.glob"></a>
 
 - *Type:* string
 
@@ -188,7 +188,7 @@ the glob pattern to match (could be a file path).
 
 ---
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-awscdk-construct.AwsCdkConstructLibrary.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -198,7 +198,7 @@ Called after all components are synthesized.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-awscdk-construct.AwsCdkConstructLibrary.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -206,7 +206,7 @@ public preSynthesize(): void
 
 Called before all components are synthesized.
 
-##### `removeTask` <a name="removeTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.removeTask"></a>
+##### `removeTask` <a name="removeTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.removeTask"></a>
 
 ```typescript
 public removeTask(name: string): Task
@@ -214,7 +214,7 @@ public removeTask(name: string): Task
 
 Removes a task from a project.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-awscdk-construct.AwsCdkConstructLibrary.removeTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.removeTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -222,7 +222,7 @@ The name of the task to remove.
 
 ---
 
-##### `runTaskCommand` <a name="runTaskCommand" id="projen-awscdk-construct.AwsCdkConstructLibrary.runTaskCommand"></a>
+##### `runTaskCommand` <a name="runTaskCommand" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.runTaskCommand"></a>
 
 ```typescript
 public runTaskCommand(task: Task): string
@@ -233,7 +233,7 @@ Returns the shell command to execute in order to run a task.
 This will
 typically be `npx projen TASK`.
 
-###### `task`<sup>Required</sup> <a name="task" id="projen-awscdk-construct.AwsCdkConstructLibrary.runTaskCommand.parameter.task"></a>
+###### `task`<sup>Required</sup> <a name="task" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.runTaskCommand.parameter.task"></a>
 
 - *Type:* projen.Task
 
@@ -241,7 +241,7 @@ The task for which the command is required.
 
 ---
 
-##### `synth` <a name="synth" id="projen-awscdk-construct.AwsCdkConstructLibrary.synth"></a>
+##### `synth` <a name="synth" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.synth"></a>
 
 ```typescript
 public synth(): void
@@ -256,7 +256,7 @@ Synthesize all project files into `outdir`.
 5. Call "postSynthesize()" for all components of this project
 6. Call "this.postSynthesize()"
 
-##### `tryFindFile` <a name="tryFindFile" id="projen-awscdk-construct.AwsCdkConstructLibrary.tryFindFile"></a>
+##### `tryFindFile` <a name="tryFindFile" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindFile"></a>
 
 ```typescript
 public tryFindFile(filePath: string): FileBase
@@ -264,7 +264,7 @@ public tryFindFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and all its subprojects.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-awscdk-construct.AwsCdkConstructLibrary.tryFindFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -275,7 +275,7 @@ from the root of _this_ project.
 
 ---
 
-##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="projen-awscdk-construct.AwsCdkConstructLibrary.tryFindJsonFile"></a>
+##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindJsonFile"></a>
 
 ```typescript
 public tryFindJsonFile(filePath: string): JsonFile
@@ -283,7 +283,7 @@ public tryFindJsonFile(filePath: string): JsonFile
 
 Finds a json file by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-awscdk-construct.AwsCdkConstructLibrary.tryFindJsonFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindJsonFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -291,7 +291,7 @@ The file path.
 
 ---
 
-##### `tryFindObjectFile` <a name="tryFindObjectFile" id="projen-awscdk-construct.AwsCdkConstructLibrary.tryFindObjectFile"></a>
+##### `tryFindObjectFile` <a name="tryFindObjectFile" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindObjectFile"></a>
 
 ```typescript
 public tryFindObjectFile(filePath: string): ObjectFile
@@ -299,7 +299,7 @@ public tryFindObjectFile(filePath: string): ObjectFile
 
 Finds an object file (like JsonFile, YamlFile, etc.) by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-awscdk-construct.AwsCdkConstructLibrary.tryFindObjectFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryFindObjectFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -307,7 +307,7 @@ The file path.
 
 ---
 
-##### `tryRemoveFile` <a name="tryRemoveFile" id="projen-awscdk-construct.AwsCdkConstructLibrary.tryRemoveFile"></a>
+##### `tryRemoveFile` <a name="tryRemoveFile" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryRemoveFile"></a>
 
 ```typescript
 public tryRemoveFile(filePath: string): FileBase
@@ -315,7 +315,7 @@ public tryRemoveFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and removes it.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-awscdk-construct.AwsCdkConstructLibrary.tryRemoveFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.tryRemoveFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -326,19 +326,19 @@ resolved from the root of _this_ project.
 
 ---
 
-##### `addBins` <a name="addBins" id="projen-awscdk-construct.AwsCdkConstructLibrary.addBins"></a>
+##### `addBins` <a name="addBins" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addBins"></a>
 
 ```typescript
 public addBins(bins: {[ key: string ]: string}): void
 ```
 
-###### `bins`<sup>Required</sup> <a name="bins" id="projen-awscdk-construct.AwsCdkConstructLibrary.addBins.parameter.bins"></a>
+###### `bins`<sup>Required</sup> <a name="bins" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addBins.parameter.bins"></a>
 
 - *Type:* {[ key: string ]: string}
 
 ---
 
-##### `addBundledDeps` <a name="addBundledDeps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addBundledDeps"></a>
+##### `addBundledDeps` <a name="addBundledDeps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addBundledDeps"></a>
 
 ```typescript
 public addBundledDeps(deps: string): void
@@ -349,7 +349,7 @@ Defines bundled dependencies.
 Bundled dependencies will be added as normal dependencies as well as to the
 `bundledDependencies` section of your `package.json`.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addBundledDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addBundledDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -363,7 +363,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="projen-awscdk-construct.AwsCdkConstructLibrary.addCompileCommand"></a>
+##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCompileCommand"></a>
 
 ```typescript
 public addCompileCommand(commands: string): void
@@ -371,13 +371,13 @@ public addCompileCommand(commands: string): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="projen-awscdk-construct.AwsCdkConstructLibrary.addCompileCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCompileCommand.parameter.commands"></a>
 
 - *Type:* string
 
 ---
 
-##### `addDeps` <a name="addDeps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addDeps"></a>
+##### `addDeps` <a name="addDeps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addDeps"></a>
 
 ```typescript
 public addDeps(deps: string): void
@@ -385,7 +385,7 @@ public addDeps(deps: string): void
 
 Defines normal dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -399,7 +399,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addDevDeps` <a name="addDevDeps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addDevDeps"></a>
+##### `addDevDeps` <a name="addDevDeps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addDevDeps"></a>
 
 ```typescript
 public addDevDeps(deps: string): void
@@ -407,7 +407,7 @@ public addDevDeps(deps: string): void
 
 Defines development/test dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addDevDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addDevDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -421,7 +421,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addFields` <a name="addFields" id="projen-awscdk-construct.AwsCdkConstructLibrary.addFields"></a>
+##### `addFields` <a name="addFields" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addFields"></a>
 
 ```typescript
 public addFields(fields: {[ key: string ]: any}): void
@@ -429,7 +429,7 @@ public addFields(fields: {[ key: string ]: any}): void
 
 Directly set fields in `package.json`.
 
-###### `fields`<sup>Required</sup> <a name="fields" id="projen-awscdk-construct.AwsCdkConstructLibrary.addFields.parameter.fields"></a>
+###### `fields`<sup>Required</sup> <a name="fields" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addFields.parameter.fields"></a>
 
 - *Type:* {[ key: string ]: any}
 
@@ -437,7 +437,7 @@ The fields to set.
 
 ---
 
-##### `addKeywords` <a name="addKeywords" id="projen-awscdk-construct.AwsCdkConstructLibrary.addKeywords"></a>
+##### `addKeywords` <a name="addKeywords" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addKeywords"></a>
 
 ```typescript
 public addKeywords(keywords: string): void
@@ -445,7 +445,7 @@ public addKeywords(keywords: string): void
 
 Adds keywords to package.json (deduplicated).
 
-###### `keywords`<sup>Required</sup> <a name="keywords" id="projen-awscdk-construct.AwsCdkConstructLibrary.addKeywords.parameter.keywords"></a>
+###### `keywords`<sup>Required</sup> <a name="keywords" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addKeywords.parameter.keywords"></a>
 
 - *Type:* string
 
@@ -453,7 +453,7 @@ The keywords to add.
 
 ---
 
-##### `addPeerDeps` <a name="addPeerDeps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addPeerDeps"></a>
+##### `addPeerDeps` <a name="addPeerDeps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addPeerDeps"></a>
 
 ```typescript
 public addPeerDeps(deps: string): void
@@ -465,7 +465,7 @@ When adding peer dependencies, a devDependency will also be added on the
 pinned version of the declared peer. This will ensure that you are testing
 your code against the minimum version required from your consumers.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addPeerDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addPeerDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -479,7 +479,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addScripts` <a name="addScripts" id="projen-awscdk-construct.AwsCdkConstructLibrary.addScripts"></a>
+##### `addScripts` <a name="addScripts" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addScripts"></a>
 
 ```typescript
 public addScripts(scripts: {[ key: string ]: string}): void
@@ -487,7 +487,7 @@ public addScripts(scripts: {[ key: string ]: string}): void
 
 Replaces the contents of multiple npm package.json scripts.
 
-###### `scripts`<sup>Required</sup> <a name="scripts" id="projen-awscdk-construct.AwsCdkConstructLibrary.addScripts.parameter.scripts"></a>
+###### `scripts`<sup>Required</sup> <a name="scripts" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addScripts.parameter.scripts"></a>
 
 - *Type:* {[ key: string ]: string}
 
@@ -495,7 +495,7 @@ The scripts to set.
 
 ---
 
-##### ~~`addTestCommand`~~ <a name="addTestCommand" id="projen-awscdk-construct.AwsCdkConstructLibrary.addTestCommand"></a>
+##### ~~`addTestCommand`~~ <a name="addTestCommand" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTestCommand"></a>
 
 ```typescript
 public addTestCommand(commands: string): void
@@ -503,13 +503,13 @@ public addTestCommand(commands: string): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="projen-awscdk-construct.AwsCdkConstructLibrary.addTestCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addTestCommand.parameter.commands"></a>
 
 - *Type:* string
 
 ---
 
-##### ~~`hasScript`~~ <a name="hasScript" id="projen-awscdk-construct.AwsCdkConstructLibrary.hasScript"></a>
+##### ~~`hasScript`~~ <a name="hasScript" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.hasScript"></a>
 
 ```typescript
 public hasScript(name: string): boolean
@@ -517,7 +517,7 @@ public hasScript(name: string): boolean
 
 Indicates if a script by the name name is defined.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-awscdk-construct.AwsCdkConstructLibrary.hasScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.hasScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -525,7 +525,7 @@ The name of the script.
 
 ---
 
-##### `removeScript` <a name="removeScript" id="projen-awscdk-construct.AwsCdkConstructLibrary.removeScript"></a>
+##### `removeScript` <a name="removeScript" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.removeScript"></a>
 
 ```typescript
 public removeScript(name: string): void
@@ -533,7 +533,7 @@ public removeScript(name: string): void
 
 Removes the npm script (always successful).
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-awscdk-construct.AwsCdkConstructLibrary.removeScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.removeScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -541,7 +541,7 @@ The name of the script.
 
 ---
 
-##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="projen-awscdk-construct.AwsCdkConstructLibrary.renderWorkflowSetup"></a>
+##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.renderWorkflowSetup"></a>
 
 ```typescript
 public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
@@ -549,7 +549,7 @@ public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
 
 Returns the set of workflow steps which should be executed to bootstrap a workflow.
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-awscdk-construct.AwsCdkConstructLibrary.renderWorkflowSetup.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.renderWorkflowSetup.parameter.options"></a>
 
 - *Type:* projen.javascript.RenderWorkflowSetupOptions
 
@@ -557,7 +557,7 @@ Options.
 
 ---
 
-##### `setScript` <a name="setScript" id="projen-awscdk-construct.AwsCdkConstructLibrary.setScript"></a>
+##### `setScript` <a name="setScript" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.setScript"></a>
 
 ```typescript
 public setScript(name: string, command: string): void
@@ -565,7 +565,7 @@ public setScript(name: string, command: string): void
 
 Replaces the contents of an npm package.json script.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-awscdk-construct.AwsCdkConstructLibrary.setScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.setScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -573,7 +573,7 @@ The script name.
 
 ---
 
-###### `command`<sup>Required</sup> <a name="command" id="projen-awscdk-construct.AwsCdkConstructLibrary.setScript.parameter.command"></a>
+###### `command`<sup>Required</sup> <a name="command" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.setScript.parameter.command"></a>
 
 - *Type:* string
 
@@ -581,7 +581,7 @@ The command to execute.
 
 ---
 
-##### ~~`addCdkDependencies`~~ <a name="addCdkDependencies" id="projen-awscdk-construct.AwsCdkConstructLibrary.addCdkDependencies"></a>
+##### ~~`addCdkDependencies`~~ <a name="addCdkDependencies" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCdkDependencies"></a>
 
 ```typescript
 public addCdkDependencies(deps: string): void
@@ -591,7 +591,7 @@ Adds dependencies to AWS CDK modules.
 
 Since this is a library project, dependencies will be added as peer dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addCdkDependencies.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCdkDependencies.parameter.deps"></a>
 
 - *Type:* string
 
@@ -599,7 +599,7 @@ names of cdk modules (e.g. `@aws-cdk/aws-lambda`).
 
 ---
 
-##### ~~`addCdkTestDependencies`~~ <a name="addCdkTestDependencies" id="projen-awscdk-construct.AwsCdkConstructLibrary.addCdkTestDependencies"></a>
+##### ~~`addCdkTestDependencies`~~ <a name="addCdkTestDependencies" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCdkTestDependencies"></a>
 
 ```typescript
 public addCdkTestDependencies(deps: string): void
@@ -607,7 +607,7 @@ public addCdkTestDependencies(deps: string): void
 
 Adds AWS CDK modules as dev dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-awscdk-construct.AwsCdkConstructLibrary.addCdkTestDependencies.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.addCdkTestDependencies.parameter.deps"></a>
 
 - *Type:* string
 
@@ -619,16 +619,16 @@ names of cdk modules (e.g. `@aws-cdk/aws-lambda`).
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.isProject">isProject</a></code> | Test whether the given construct is a project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.of">of</a></code> | Find the closest ancestor project for given construct. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.isProject">isProject</a></code> | Test whether the given construct is a project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.of">of</a></code> | Find the closest ancestor project for given construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-awscdk-construct.AwsCdkConstructLibrary.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.isConstruct"></a>
 
 ```typescript
-import { AwsCdkConstructLibrary } from 'projen-awscdk-construct'
+import { AwsCdkConstructLibrary } from '@cdk-att/projen-awscdk-construct'
 
 AwsCdkConstructLibrary.isConstruct(x: any)
 ```
@@ -649,7 +649,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-awscdk-construct.AwsCdkConstructLibrary.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -657,26 +657,26 @@ Any object.
 
 ---
 
-##### `isProject` <a name="isProject" id="projen-awscdk-construct.AwsCdkConstructLibrary.isProject"></a>
+##### `isProject` <a name="isProject" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.isProject"></a>
 
 ```typescript
-import { AwsCdkConstructLibrary } from 'projen-awscdk-construct'
+import { AwsCdkConstructLibrary } from '@cdk-att/projen-awscdk-construct'
 
 AwsCdkConstructLibrary.isProject(x: any)
 ```
 
 Test whether the given construct is a project.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-awscdk-construct.AwsCdkConstructLibrary.isProject.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.isProject.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `of` <a name="of" id="projen-awscdk-construct.AwsCdkConstructLibrary.of"></a>
+##### `of` <a name="of" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.of"></a>
 
 ```typescript
-import { AwsCdkConstructLibrary } from 'projen-awscdk-construct'
+import { AwsCdkConstructLibrary } from '@cdk-att/projen-awscdk-construct'
 
 AwsCdkConstructLibrary.of(construct: IConstruct)
 ```
@@ -685,7 +685,7 @@ Find the closest ancestor project for given construct.
 
 When given a project, this it the project itself.
 
-###### `construct`<sup>Required</sup> <a name="construct" id="projen-awscdk-construct.AwsCdkConstructLibrary.of.parameter.construct"></a>
+###### `construct`<sup>Required</sup> <a name="construct" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.of.parameter.construct"></a>
 
 - *Type:* constructs.IConstruct
 
@@ -695,75 +695,75 @@ When given a project, this it the project itself.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.name">name</a></code> | <code>string</code> | Project name. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.npmrc">npmrc</a></code> | <code>projen.javascript.NpmConfig</code> | The .npmrc file. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version required by this package. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum node.js version required by this package. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.cdkDeps">cdkDeps</a></code> | <code>projen.awscdk.AwsCdkDeps</code> | *No description.* |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.cdkVersion">cdkVersion</a></code> | <code>string</code> | The target CDK version for this library. |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.version">version</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.name">name</a></code> | <code>string</code> | Project name. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.npmrc">npmrc</a></code> | <code>projen.javascript.NpmConfig</code> | The .npmrc file. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version required by this package. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum node.js version required by this package. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.cdkDeps">cdkDeps</a></code> | <code>projen.awscdk.AwsCdkDeps</code> | *No description.* |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.cdkVersion">cdkVersion</a></code> | <code>string</code> | The target CDK version for this library. |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.version">version</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -775,7 +775,7 @@ The tree node.
 
 ---
 
-##### `buildTask`<sup>Required</sup> <a name="buildTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.buildTask"></a>
+##### `buildTask`<sup>Required</sup> <a name="buildTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.buildTask"></a>
 
 ```typescript
 public readonly buildTask: Task;
@@ -785,7 +785,7 @@ public readonly buildTask: Task;
 
 ---
 
-##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -797,7 +797,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `compileTask`<sup>Required</sup> <a name="compileTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.compileTask"></a>
+##### `compileTask`<sup>Required</sup> <a name="compileTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.compileTask"></a>
 
 ```typescript
 public readonly compileTask: Task;
@@ -807,7 +807,7 @@ public readonly compileTask: Task;
 
 ---
 
-##### `components`<sup>Required</sup> <a name="components" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.components"></a>
+##### `components`<sup>Required</sup> <a name="components" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.components"></a>
 
 ```typescript
 public readonly components: Component[];
@@ -819,7 +819,7 @@ Returns all the components within this project.
 
 ---
 
-##### `deps`<sup>Required</sup> <a name="deps" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.deps"></a>
+##### `deps`<sup>Required</sup> <a name="deps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.deps"></a>
 
 ```typescript
 public readonly deps: Dependencies;
@@ -831,7 +831,7 @@ Project dependencies.
 
 ---
 
-##### `ejected`<sup>Required</sup> <a name="ejected" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.ejected"></a>
+##### `ejected`<sup>Required</sup> <a name="ejected" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.ejected"></a>
 
 ```typescript
 public readonly ejected: boolean;
@@ -843,7 +843,7 @@ Whether or not the project is being ejected.
 
 ---
 
-##### `files`<sup>Required</sup> <a name="files" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.files"></a>
+##### `files`<sup>Required</sup> <a name="files" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.files"></a>
 
 ```typescript
 public readonly files: FileBase[];
@@ -855,7 +855,7 @@ All files in this project.
 
 ---
 
-##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.gitattributes"></a>
+##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.gitattributes"></a>
 
 ```typescript
 public readonly gitattributes: GitAttributesFile;
@@ -867,7 +867,7 @@ The .gitattributes file for this repository.
 
 ---
 
-##### `gitignore`<sup>Required</sup> <a name="gitignore" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.gitignore"></a>
+##### `gitignore`<sup>Required</sup> <a name="gitignore" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: IgnoreFile;
@@ -879,7 +879,7 @@ public readonly gitignore: IgnoreFile;
 
 ---
 
-##### `logger`<sup>Required</sup> <a name="logger" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.logger"></a>
+##### `logger`<sup>Required</sup> <a name="logger" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.logger"></a>
 
 ```typescript
 public readonly logger: Logger;
@@ -891,7 +891,7 @@ Logging utilities.
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -903,7 +903,7 @@ Project name.
 
 ---
 
-##### `outdir`<sup>Required</sup> <a name="outdir" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.outdir"></a>
+##### `outdir`<sup>Required</sup> <a name="outdir" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -915,7 +915,7 @@ Absolute output directory of this project.
 
 ---
 
-##### `packageTask`<sup>Required</sup> <a name="packageTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.packageTask"></a>
+##### `packageTask`<sup>Required</sup> <a name="packageTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.packageTask"></a>
 
 ```typescript
 public readonly packageTask: Task;
@@ -925,7 +925,7 @@ public readonly packageTask: Task;
 
 ---
 
-##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.postCompileTask"></a>
+##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.postCompileTask"></a>
 
 ```typescript
 public readonly postCompileTask: Task;
@@ -935,7 +935,7 @@ public readonly postCompileTask: Task;
 
 ---
 
-##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.preCompileTask"></a>
+##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.preCompileTask"></a>
 
 ```typescript
 public readonly preCompileTask: Task;
@@ -945,7 +945,7 @@ public readonly preCompileTask: Task;
 
 ---
 
-##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.projectBuild"></a>
+##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.projectBuild"></a>
 
 ```typescript
 public readonly projectBuild: ProjectBuild;
@@ -957,7 +957,7 @@ Manages the build process of the project.
 
 ---
 
-##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.projenCommand"></a>
+##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -969,7 +969,7 @@ The command to use in order to run the projen CLI.
 
 ---
 
-##### `root`<sup>Required</sup> <a name="root" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.root"></a>
+##### `root`<sup>Required</sup> <a name="root" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.root"></a>
 
 ```typescript
 public readonly root: Project;
@@ -981,7 +981,7 @@ The root project.
 
 ---
 
-##### `subprojects`<sup>Required</sup> <a name="subprojects" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.subprojects"></a>
+##### `subprojects`<sup>Required</sup> <a name="subprojects" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.subprojects"></a>
 
 ```typescript
 public readonly subprojects: Project[];
@@ -993,7 +993,7 @@ Returns all the subprojects within this project.
 
 ---
 
-##### `tasks`<sup>Required</sup> <a name="tasks" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.tasks"></a>
+##### `tasks`<sup>Required</sup> <a name="tasks" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.tasks"></a>
 
 ```typescript
 public readonly tasks: Tasks;
@@ -1005,7 +1005,7 @@ Project tasks.
 
 ---
 
-##### `testTask`<sup>Required</sup> <a name="testTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.testTask"></a>
+##### `testTask`<sup>Required</sup> <a name="testTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.testTask"></a>
 
 ```typescript
 public readonly testTask: Task;
@@ -1015,7 +1015,7 @@ public readonly testTask: Task;
 
 ---
 
-##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.defaultTask"></a>
+##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.defaultTask"></a>
 
 ```typescript
 public readonly defaultTask: Task;
@@ -1030,7 +1030,7 @@ the project is being ejected.
 
 ---
 
-##### `initProject`<sup>Optional</sup> <a name="initProject" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.initProject"></a>
+##### `initProject`<sup>Optional</sup> <a name="initProject" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.initProject"></a>
 
 ```typescript
 public readonly initProject: InitProject;
@@ -1046,7 +1046,7 @@ FQN of the project type.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -1060,7 +1060,7 @@ If undefined, this is the root project.
 
 ---
 
-##### `projectType`<sup>Required</sup> <a name="projectType" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.projectType"></a>
+##### `projectType`<sup>Required</sup> <a name="projectType" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.projectType"></a>
 
 ```typescript
 public readonly projectType: ProjectType;
@@ -1070,7 +1070,7 @@ public readonly projectType: ProjectType;
 
 ---
 
-##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.autoApprove"></a>
+##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.autoApprove"></a>
 
 ```typescript
 public readonly autoApprove: AutoApprove;
@@ -1082,7 +1082,7 @@ Auto approve set up for this project.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: DevContainer;
@@ -1096,7 +1096,7 @@ This will be `undefined` if devContainer boolean is false
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.github"></a>
 
 ```typescript
 public readonly github: GitHub;
@@ -1110,7 +1110,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: Gitpod;
@@ -1124,7 +1124,7 @@ This will be `undefined` if gitpod boolean is false
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.vscode"></a>
 
 ```typescript
 public readonly vscode: VsCode;
@@ -1138,7 +1138,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.allowLibraryDependencies"></a>
+##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.allowLibraryDependencies"></a>
 
 - *Deprecated:* use `package.allowLibraryDependencies`
 
@@ -1150,7 +1150,7 @@ public readonly allowLibraryDependencies: boolean;
 
 ---
 
-##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -1166,7 +1166,7 @@ tarball will be placed under `dist/js/boom-boom-1.2.3.tg`.
 
 ---
 
-##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.artifactsJavascriptDirectory"></a>
+##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.artifactsJavascriptDirectory"></a>
 
 ```typescript
 public readonly artifactsJavascriptDirectory: string;
@@ -1178,7 +1178,7 @@ The location of the npm tarball after build (`${artifactsDirectory}/js`).
 
 ---
 
-##### `bundler`<sup>Required</sup> <a name="bundler" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.bundler"></a>
+##### `bundler`<sup>Required</sup> <a name="bundler" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.bundler"></a>
 
 ```typescript
 public readonly bundler: Bundler;
@@ -1188,7 +1188,7 @@ public readonly bundler: Bundler;
 
 ---
 
-##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.entrypoint"></a>
+##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.entrypoint"></a>
 
 - *Deprecated:* use `package.entrypoint`
 
@@ -1200,7 +1200,7 @@ public readonly entrypoint: string;
 
 ---
 
-##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.manifest"></a>
+##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.manifest"></a>
 
 - *Deprecated:* use `package.addField(x, y)`
 
@@ -1212,7 +1212,7 @@ public readonly manifest: any;
 
 ---
 
-##### `npmrc`<sup>Required</sup> <a name="npmrc" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.npmrc"></a>
+##### `npmrc`<sup>Required</sup> <a name="npmrc" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.npmrc"></a>
 
 ```typescript
 public readonly npmrc: NpmConfig;
@@ -1224,7 +1224,7 @@ The .npmrc file.
 
 ---
 
-##### `package`<sup>Required</sup> <a name="package" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.package"></a>
+##### `package`<sup>Required</sup> <a name="package" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.package"></a>
 
 ```typescript
 public readonly package: NodePackage;
@@ -1236,7 +1236,7 @@ API for managing the node package.
 
 ---
 
-##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.packageManager"></a>
+##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.packageManager"></a>
 
 - *Deprecated:* use `package.packageManager`
 
@@ -1250,7 +1250,7 @@ The package manager to use.
 
 ---
 
-##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.runScriptCommand"></a>
+##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.runScriptCommand"></a>
 
 ```typescript
 public readonly runScriptCommand: string;
@@ -1262,7 +1262,7 @@ The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the p
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: AutoMerge;
@@ -1274,7 +1274,7 @@ Component that sets up mergify for merging approved pull requests.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: BuildWorkflow;
@@ -1288,7 +1288,7 @@ The PR build GitHub workflow.
 
 ---
 
-##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.buildWorkflowJobId"></a>
+##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.buildWorkflowJobId"></a>
 
 ```typescript
 public readonly buildWorkflowJobId: string;
@@ -1300,7 +1300,7 @@ The job ID of the build workflow.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="jest" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="jest" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.jest"></a>
 
 ```typescript
 public readonly jest: Jest;
@@ -1312,7 +1312,7 @@ The Jest configuration (if enabled).
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -1324,7 +1324,7 @@ Maximum node version required by this package.
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -1336,7 +1336,7 @@ Minimum node.js version required by this package.
 
 ---
 
-##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.npmignore"></a>
+##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.npmignore"></a>
 
 ```typescript
 public readonly npmignore: IgnoreFile;
@@ -1348,7 +1348,7 @@ The .npmignore file.
 
 ---
 
-##### `prettier`<sup>Optional</sup> <a name="prettier" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.prettier"></a>
+##### `prettier`<sup>Optional</sup> <a name="prettier" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.prettier"></a>
 
 ```typescript
 public readonly prettier: Prettier;
@@ -1358,7 +1358,7 @@ public readonly prettier: Prettier;
 
 ---
 
-##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.publisher"></a>
+##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.publisher"></a>
 
 - *Deprecated:* use `release.publisher`.
 
@@ -1375,7 +1375,7 @@ release workflow.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="release" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="release" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.release"></a>
 
 ```typescript
 public readonly release: Release;
@@ -1387,7 +1387,7 @@ Release management.
 
 ---
 
-##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.upgradeWorkflow"></a>
+##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.upgradeWorkflow"></a>
 
 ```typescript
 public readonly upgradeWorkflow: UpgradeDependencies;
@@ -1399,7 +1399,7 @@ The upgrade workflow.
 
 ---
 
-##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -1409,7 +1409,7 @@ public readonly docsDirectory: string;
 
 ---
 
-##### `libdir`<sup>Required</sup> <a name="libdir" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.libdir"></a>
+##### `libdir`<sup>Required</sup> <a name="libdir" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -1421,7 +1421,7 @@ The directory in which compiled .js files reside.
 
 ---
 
-##### `srcdir`<sup>Required</sup> <a name="srcdir" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.srcdir"></a>
+##### `srcdir`<sup>Required</sup> <a name="srcdir" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -1433,7 +1433,7 @@ The directory in which the .ts sources reside.
 
 ---
 
-##### `testdir`<sup>Required</sup> <a name="testdir" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.testdir"></a>
+##### `testdir`<sup>Required</sup> <a name="testdir" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -1445,7 +1445,7 @@ The directory in which tests reside.
 
 ---
 
-##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfig;
@@ -1457,7 +1457,7 @@ A typescript configuration file which covers all files (sources, tests, projen).
 
 ---
 
-##### `watchTask`<sup>Required</sup> <a name="watchTask" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.watchTask"></a>
+##### `watchTask`<sup>Required</sup> <a name="watchTask" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.watchTask"></a>
 
 ```typescript
 public readonly watchTask: Task;
@@ -1469,7 +1469,7 @@ The "watch" task.
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="docgen" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="docgen" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -1479,7 +1479,7 @@ public readonly docgen: boolean;
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="eslint" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="eslint" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.eslint"></a>
 
 ```typescript
 public readonly eslint: Eslint;
@@ -1489,7 +1489,7 @@ public readonly eslint: Eslint;
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfig;
@@ -1499,7 +1499,7 @@ public readonly tsconfig: TypescriptConfig;
 
 ---
 
-##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfigEslint"></a>
+##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.tsconfigEslint"></a>
 
 ```typescript
 public readonly tsconfigEslint: TypescriptConfig;
@@ -1509,7 +1509,7 @@ public readonly tsconfigEslint: TypescriptConfig;
 
 ---
 
-##### `cdkDeps`<sup>Required</sup> <a name="cdkDeps" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.cdkDeps"></a>
+##### `cdkDeps`<sup>Required</sup> <a name="cdkDeps" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.cdkDeps"></a>
 
 ```typescript
 public readonly cdkDeps: AwsCdkDeps;
@@ -1519,7 +1519,7 @@ public readonly cdkDeps: AwsCdkDeps;
 
 ---
 
-##### `cdkVersion`<sup>Required</sup> <a name="cdkVersion" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.cdkVersion"></a>
+##### `cdkVersion`<sup>Required</sup> <a name="cdkVersion" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.cdkVersion"></a>
 
 ```typescript
 public readonly cdkVersion: string;
@@ -1531,7 +1531,7 @@ The target CDK version for this library.
 
 ---
 
-##### ~~`version`~~<sup>Required</sup> <a name="version" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.version"></a>
+##### ~~`version`~~<sup>Required</sup> <a name="version" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.version"></a>
 
 - *Deprecated:* use `cdkVersion`
 
@@ -1547,11 +1547,11 @@ public readonly version: string;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-awscdk-construct.AwsCdkConstructLibrary.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
+| <code><a href="#@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
 
 ---
 
-##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="projen-awscdk-construct.AwsCdkConstructLibrary.property.DEFAULT_TASK"></a>
+##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="@cdk-att/projen-awscdk-construct.AwsCdkConstructLibrary.property.DEFAULT_TASK"></a>
 
 ```typescript
 public readonly DEFAULT_TASK: string;
