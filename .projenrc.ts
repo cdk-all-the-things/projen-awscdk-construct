@@ -6,7 +6,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Randy Ridgley',
   authorAddress: 'randy.ridgley@gmail.com',
   copyrightOwner: 'Cdk All The Things',
-  cdkVersion: '2.99.0',
+  cdkVersion: '2.45.0',
   constructsVersion: '10.3.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.0.0',
