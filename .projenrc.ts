@@ -6,7 +6,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Randy Ridgley',
   authorAddress: 'randy.ridgley@gmail.com',
   copyrightOwner: 'Cdk All The Things',
-  cdkVersion: '2.1.0',
+  cdkVersion: '2.99.0',
   constructsVersion: '10.3.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.0.0',
@@ -47,7 +47,21 @@ const project = new awscdk.AwsCdkConstructLibrary({
   //   javaPackage: 'com.cdk-att.projen.awscdk_construct',
   // },
   gitignore: ['.idea/', '*.iml', '.vscode'],
-  devDeps: [`projen@${PROJEN_VERSION}`] /* Runtime dependencies of this module. */,
-  peerDeps: [`projen@${PROJEN_VERSION}`],
+  devDeps: [
+    `projen@${PROJEN_VERSION}`,
+    'cdk-nag@^2.27.0',
+    'cdk-monitoring-constructs@^6.0.0',
+    // peer dependencies of cdk-monitoring-constructs
+    '@aws-cdk/aws-apigatewayv2-alpha@^2.99.0-alpha.0',
+    '@aws-cdk/aws-redshift-alpha@^2.99.0-alpha.0',
+  ] /* Runtime dependencies of this module. */,
+  peerDeps: [
+    `projen@${PROJEN_VERSION}`,
+    'cdk-nag@^2.27.0',
+    'cdk-monitoring-constructs@^6.0.0',
+    // peer dependencies of cdk-monitoring-constructs
+    '@aws-cdk/aws-apigatewayv2-alpha@^2.99.0-alpha.0',
+    '@aws-cdk/aws-redshift-alpha@^2.99.0-alpha.0',
+  ],
 });
 project.synth();

@@ -45,6 +45,22 @@ export class AwsCdkConstructLibrary extends awscdk.AwsCdkConstructLibrary {
       },
 
       gitignore: ['.idea/', '*.iml', '.vscode'],
+      devDeps: [
+        `projen@${PROJEN_VERSION}`,
+        'cdk-nag@^2.27.0',
+        'cdk-monitoring-constructs@^6.0.0',
+        // peer dependencies of cdk-monitoring-constructs
+        '@aws-cdk/aws-apigatewayv2-alpha@^2.99.0-alpha.0',
+        '@aws-cdk/aws-redshift-alpha@^2.99.0-alpha.0',
+      ] /* Runtime dependencies of this module. */,
+      peerDeps: [
+        `projen@${PROJEN_VERSION}`,
+        'cdk-nag@^2.27.0',
+        'cdk-monitoring-constructs@^6.0.0',
+        // peer dependencies of cdk-monitoring-constructs
+        '@aws-cdk/aws-apigatewayv2-alpha@^2.99.0-alpha.0',
+        '@aws-cdk/aws-redshift-alpha@^2.99.0-alpha.0',
+      ],
     });
   }
 }

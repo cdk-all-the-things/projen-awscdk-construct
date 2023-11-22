@@ -1,6 +1,16 @@
 {
   "dependencies": [
     {
+      "name": "@aws-cdk/aws-apigatewayv2-alpha",
+      "version": "^2.99.0-alpha.0",
+      "type": "build"
+    },
+    {
+      "name": "@aws-cdk/aws-redshift-alpha",
+      "version": "^2.99.0-alpha.0",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -17,6 +27,16 @@
     {
       "name": "@typescript-eslint/parser",
       "version": "^6",
+      "type": "build"
+    },
+    {
+      "name": "cdk-monitoring-constructs",
+      "version": "^6.0.0",
+      "type": "build"
+    },
+    {
+      "name": "cdk-nag",
+      "version": "^2.27.0",
       "type": "build"
     },
     {
@@ -85,8 +105,28 @@
       "type": "build"
     },
     {
+      "name": "@aws-cdk/aws-apigatewayv2-alpha",
+      "version": "^2.99.0-alpha.0",
+      "type": "peer"
+    },
+    {
+      "name": "@aws-cdk/aws-redshift-alpha",
+      "version": "^2.99.0-alpha.0",
+      "type": "peer"
+    },
+    {
       "name": "aws-cdk-lib",
-      "version": "^2.1.0",
+      "version": "^2.99.0",
+      "type": "peer"
+    },
+    {
+      "name": "cdk-monitoring-constructs",
+      "version": "^6.0.0",
+      "type": "peer"
+    },
+    {
+      "name": "cdk-nag",
+      "version": "^2.27.0",
       "type": "peer"
     },
     {
